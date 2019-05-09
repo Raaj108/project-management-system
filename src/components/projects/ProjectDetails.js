@@ -35,7 +35,7 @@ const mapStateToProps = (state, ownProps) => {
     const projects = state.firestore.data.projects;    
     const project = projects ? projects[id] : null;
     return{
-        project : project,
+       project : project,
        auth: state.firebase.auth
     }  
 }
